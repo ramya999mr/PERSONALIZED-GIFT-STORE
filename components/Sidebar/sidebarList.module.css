@@ -1,0 +1,58 @@
+.filter_btn {
+  display: none;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 11px;
+  padding: 4px;
+  border-radius: 0px 5px 5px 0px;
+  cursor: pointer;
+  height: 55px;
+  color: var(--main_contrast);
+  background: var(--main);
+  z-index: 1;
+  width: 56px;
+  position: fixed;
+  left: 0px;
+  top: 135px;
+  transition: 0.3s all;
+}
+
+.sidebar {
+  width: 18em;
+  position: fixed;
+  overflow-y: auto;
+  top: 95px;
+  left: 0px;
+  height: 100vh;
+  padding-bottom: 100px;
+  padding-right: 5px;
+  background-color: var(--white);
+  transition: 0.3s all;
+  box-shadow: 7px 9px 20px -20px black;
+}
+
+.sidebar_inner {
+  padding: 45px 28px 24px 15px;
+  overflow: auto;
+}
+
+.b_left {
+  left: 270px;
+}
+
+.s_left {
+  left: 0px !important;
+}
+
+@media (max-width: 1024px) {
+  .sidebar {
+    left: -270px;
+    width: 270px;
+    z-index: 1;
+    top: 63px;
+  }
+  .filter_btn {
+    display: block;
+  }
+}

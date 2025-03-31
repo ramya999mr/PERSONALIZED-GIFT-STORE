@@ -1,0 +1,16 @@
+.gallery_container {
+  padding-top: 145px;
+  max-width: calc(100% - 18em);
+  overflow: auto;
+  min-height: 100vh;
+  position: absolute;
+  right: 0;
+  background-color: #f7f7f7;
+}
+
+@media (max-width: 1024px) {
+  .gallery_container {
+    width: 100%;
+    max-width: 100%;
+  }
+}

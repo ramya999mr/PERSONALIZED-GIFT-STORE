@@ -1,0 +1,60 @@
+.wrapper {
+  position: fixed;
+  z-index: 10000;
+  bottom: 32px;
+  right: 32px;
+  width: 320px;
+}
+
+.card {
+  padding: 24px;
+  border-radius: 12px;
+  background: var(--grey);
+  box-shadow: 0px 0px 13px -8px #000;
+}
+
+.card svg {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: #393939;
+}
+
+.content {
+  display: block;
+}
+
+.content img {
+  width: 48px;
+  height: 48px;
+}
+
+.text > * {
+  font-size: 13px;
+  line-height: 15px;
+  color: #393939 !important;
+}
+
+.text p {
+  margin-bottom: 16px;
+}
+
+.text a {
+  color: var(--main) !important;
+}
+
+.button_container {
+  margin-top: 24px;
+}
+
+.accept_button {
+  display: inline-block;
+  background-color: var(--main);
+  color: var(--main_contrast);
+  padding: 10px 20px;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 4px;
+  width: 100%;
+  border: none;
+}
